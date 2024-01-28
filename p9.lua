@@ -1,3 +1,9 @@
+--[[
+p9.lua: yet another 9patch library for Love2D.
+https://github.com/codecat/p9
+MIT Licensed; Copyright © 2024 Melissa Geels
+]]
+
 local shader = love.graphics.newShader([[
 uniform vec4 middle;
 uniform vec2 dest_size;
